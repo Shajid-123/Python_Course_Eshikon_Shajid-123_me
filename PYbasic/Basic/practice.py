@@ -1,3 +1,1 @@
-car = input("> ")
-if car == "help":
-    print("fuck you")
+print(5**2)
