@@ -21,4 +21,4 @@ print("")
 for row in list:
     print(row)
     for col in row:
-        print(col)
+        print(col) 
