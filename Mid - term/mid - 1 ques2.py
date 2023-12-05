@@ -78,9 +78,10 @@ print("Output 4")
 print("")
 even = []
 
-for even_in_input1 in input1[:2]:
-    for numbers in even_in_input1:
-        if (numbers % 2) == 0:
+for odd_or_even_in_input1 in output3_list:
+        if (odd_or_even_in_input1 % 2) == 0:
             even.append("Even")
+        else:
+            even.append("Odd")       
 
 print(even)
