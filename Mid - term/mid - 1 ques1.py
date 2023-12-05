@@ -1,7 +1,8 @@
 list = [2,4,4,4,5,5,7,9]
 sum = 0
 
-
+for  i in list:
+    sum = sum+i
 
 
 def custom_len(x):
@@ -13,14 +14,14 @@ def custom_len(x):
 
 mean_avr = sum/custom_len(list)
 
-
+sum1 = 0 
 for k in list:
-    list_sum = k - mean_avr**2
-    sum = sum+list_sum
+    list_sum = (k - mean_avr)**2
+    sum1 = sum1+list_sum
 
 
 
 
-o = (sum/(custom_len(list)-1))**(1/2)
+o = (sum1/(custom_len(list)-1))**(1/2)
 
 print(o)
